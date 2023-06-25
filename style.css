@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #5e93e8;
+}
+
+#counter {
+  background-image: linear-gradient(45deg, #eded97, #7373c4, #f10d05);
+  margin: 50px 0;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#counter p {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#input-range input {
+  padding: 10px;
+  width: 30%;
+  font-size: 1rem;
+  border-radius: 30px;
+}
+
+#input-range {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#input-range button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 0px 5px 20px #181616;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#counter-value p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+  word-spacing: 1rem;
+}
+
+#counter-container {
+  background-color: #0f1bbd;
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.counter {
+  display: inline-block;
+  background-color: aliceblue;
+  width: 15%;
+  max-width: 80px;
+  height: 80px;
+  margin: auto 10px;
+  box-shadow: 0px 0px 5px #0d0c0c;
+  position: relative;
+  overflow: hidden;
+}
+
+.counter p {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  line-height: 80px;
+  border-top: 2px solid black;
+  background-color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.next {
+  position: absolute;
+  top: 80px;
+}
+
+p.animate {
+  transition-duration: 0.5s;
+  top: 0px;
+}
